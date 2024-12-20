@@ -7,7 +7,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("AI Doubt Solver")
+st.title("🤖 AI Doubt Solver")
 st.subheader("Your own all-purpose doubt solution stop.")
 
 st.markdown("###")  # Add a line break
