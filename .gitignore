@@ -1,5 +1,16 @@
 test.py
 *.env
-OS/os_chroma_db
 dsa/leetcode.ipynb
 OS/__pycache__
+OS/1vectorize_data.py
+OS/2user_input.py
+OS/3vectorize_umbrella.py
+OS/4fetch_umbrella.py
+OS/5create_index_data.py
+OS/6find_pages.py
+OS/7extract_docs.py
+OS/8new_vectorize_book.py
+OS/8vectorize_pages_openAI.py
+OS/umbrella_embeddings.pkl
+OS/index_data.csv
+venv
