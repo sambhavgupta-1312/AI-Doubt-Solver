@@ -7,6 +7,27 @@ st.set_page_config(
     layout="centered"
 )
 
+# st.markdown(
+#     """
+#     <style>
+#     /* Set background color for the main app */
+#     .main {
+#         background-color: #0E1117;
+#         color: white;
+#     }
+
+#     /* Set background color for the sidebar */
+#     [data-testid="stSidebar"] {
+#         background-color: #262730;
+#     }
+
+#     /* Customize other elements as needed */
+#     </style>
+#     """,
+#     unsafe_allow_html=True,
+# )
+
+
 st.title("🤖 AI Doubt Solver")
 st.subheader("Your own all-purpose doubt solution stop.")
 
