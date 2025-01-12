@@ -92,7 +92,10 @@ selection = st.sidebar.radio("Explore:", [
 
 # Main Page Layout
 if selection == "🏠 Home":
-    st.title("🤖 AI Doubt Solver")
+    st.markdown(
+    '<h1 style="color: #E74C3C;">🤖 AI Doubt Solver</h1>',
+    unsafe_allow_html=True
+    )
     st.markdown("### Empowering Students with AI-based Problem Solving")
     st.markdown("---")
     

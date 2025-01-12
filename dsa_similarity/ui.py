@@ -7,14 +7,16 @@ from dsa_similarity.Coding_Problems_Functionalities import (
 )
 
 def main():
-    # Title
-    st.title("Question and Topic Similarity Finder")
+    st.markdown(
+        '<h1 style="color: #E74C3C;">Question and Topic Similarity Finder</h1>',
+        unsafe_allow_html=True
+    )
 
     # User input
     search_type = st.radio("Search by:", ("Question", "Topic"))
 
     if search_type == "Question":
-        user_question = st.text_input("Enter a question:")
+        user_question = st.text_input("label is not visible", placeholder='Enter your question', label_visibility='hidden')
         if st.button("Find"):
             if user_question:
                 with st.spinner("Fetching similar questions..."):
@@ -33,7 +35,7 @@ def main():
                 st.error("Please enter a question to find similar questions.")
 
     else:
-        user_topic = st.text_input("Enter a topic:")
+        user_topic = st.text_input("this label is not visible",placeholder='Enter your query topic', label_visibility='hidden')
         if st.button("Find"):
             if user_topic:
                 with st.spinner("Searching for related topics..."):

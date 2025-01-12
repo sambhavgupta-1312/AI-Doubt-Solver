@@ -23,8 +23,11 @@ def main():
     df = load_dataset()
     problem_embeddings= load_embeddings('dsa/problem_statement_embeddings.pkl')
     title_embeddings= load_embeddings('dsa/title_embeddings.pkl')
-
-    st.title("DSA Question Helper")
+    
+    st.markdown(
+        '<h1 style="color: #E74C3C;">DSA Question Helper</h1>',
+        unsafe_allow_html=True
+    )
 
     # User Input
     st.markdown('<label for="Your Question Type:" class="custom-label">How would you like to ask the question?</label>', unsafe_allow_html=True)

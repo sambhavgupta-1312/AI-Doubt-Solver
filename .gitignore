@@ -12,4 +12,5 @@ OS/7extract_docs.py
 OS/8vectorize_pages_openAI.py
 OS/umbrella_embeddings.pkl
 OS/index_data.csv
+OS/os_chroma_db
 venv
