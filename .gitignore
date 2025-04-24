@@ -14,3 +14,7 @@ OS/umbrella_embeddings.pkl
 OS/index_data.csv
 OS/os_chroma_db
 venv
+data/Abraham-Silberschatz-Operating-System-Concepts-10th-2018.pdf
+data/mapping8.csv
+data/os_compare.csv
+data/topic_with_desc.csv
